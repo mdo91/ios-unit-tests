@@ -8,13 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LibraryViewController: UIViewController {
+    
+    
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet var dataService: MovieLibraryDataService!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        tableView.dataSource = self.dataService
+        tableView.delegate = self.dataService
     }
     
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
     
 
     
