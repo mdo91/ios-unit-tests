@@ -26,7 +26,12 @@ class MovieManager{
         
    //     moviesToSeeCount += 1
         //movieAtIndex
-        movies.append(movie)
+        
+        if !movies.contains(movie){
+            
+             movies.append(movie)
+        }
+       
          //moviesSeenArray.append(movie)
         
     }
@@ -50,5 +55,12 @@ class MovieManager{
     func checkedOffMovieAtIndex(index:Int) -> Movie{
        // guard index < moviesSeenCount else {  return }
         return moviesSeenArray[index]
+    }
+    
+    func clearArrays(){
+        
+        movies.removeAll()
+        moviesSeenArray.removeAll()
+        
     }
 }
