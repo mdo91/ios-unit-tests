@@ -20,6 +20,8 @@ class LibraryViewController: UIViewController {
         
         tableView.dataSource = self.dataService
         tableView.delegate = self.dataService
+        
+        tableView.register(MovieCell.self, forCellReuseIdentifier: "movieCellId")
     }
     
     
