@@ -19,6 +19,8 @@
 		545566DC250A7F3600CADF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545566DA250A7F3600CADF16 /* LaunchScreen.storyboard */; };
 		545566F2250A81B900CADF16 /* MoiveStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545566F1250A81B900CADF16 /* MoiveStructTests.swift */; };
 		545566F5250A82A200CADF16 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545566F4250A82A200CADF16 /* Movie.swift */; };
+		5468F326250F8439007D6739 /* MovieLibraryDataServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468F325250F8439007D6739 /* MovieLibraryDataServiceTests.swift */; };
+		5468F329250FA336007D6739 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5468F328250FA336007D6739 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		545566E8250A7F3600CADF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		545566F1250A81B900CADF16 /* MoiveStructTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiveStructTests.swift; sourceTree = "<group>"; };
 		545566F4250A82A200CADF16 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5468F325250F8439007D6739 /* MovieLibraryDataServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLibraryDataServiceTests.swift; sourceTree = "<group>"; };
+		5468F328250FA336007D6739 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		545566CE250A7F3100CADF16 /* FilmFest */ = {
 			isa = PBXGroup;
 			children = (
+				5468F327250FA307007D6739 /* Views */,
+				5468F324250F83EE007D6739 /* Test Data Service */,
 				54537B8C250CFDD400C19DAF /* Data Service */,
 				54537B89250CF60F00C19DAF /* ViewControllersTests */,
 				54537B82250AA13D00C19DAF /* ViewControllers */,
@@ -152,6 +158,22 @@
 				54537B87250B5CFC00C19DAF /* MovieManager.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5468F324250F83EE007D6739 /* Test Data Service */ = {
+			isa = PBXGroup;
+			children = (
+				5468F325250F8439007D6739 /* MovieLibraryDataServiceTests.swift */,
+			);
+			path = "Test Data Service";
+			sourceTree = "<group>";
+		};
+		5468F327250FA307007D6739 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5468F328250FA336007D6739 /* MovieCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5468F329250FA336007D6739 /* MovieCell.swift in Sources */,
 				545566D4250A7F3100CADF16 /* LibraryViewController.swift in Sources */,
 				545566D0250A7F3100CADF16 /* AppDelegate.swift in Sources */,
 				54537B8E250CFE1100C19DAF /* MovieLibraryDataService.swift in Sources */,
@@ -269,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5468F326250F8439007D6739 /* MovieLibraryDataServiceTests.swift in Sources */,
 				54537B86250B5C5F00C19DAF /* MovieManagerTests.swift in Sources */,
 				545566F2250A81B900CADF16 /* MoiveStructTests.swift in Sources */,
 				54537B8B250CF63B00C19DAF /* LibraryViewControllerTests.swift in Sources */,
