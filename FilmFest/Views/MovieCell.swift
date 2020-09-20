@@ -9,11 +9,20 @@
 import UIKit
 
 class MovieCell: UITableViewCell {
+    
+  //  var movie: Movie?
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
+        
+    }
+    
+    func config(movie:Movie){
+        self.textLabel?.text = movie.title
+        self.detailTextLabel?.text = movie.releaseDate
+       // print("self.detailTextLabel?.text \(self.detailTextLabel?.text)")
         
     }
 

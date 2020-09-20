@@ -9,12 +9,13 @@
 import Foundation
 
 struct Movie:Equatable {
-    var title:String
-    var releaseDate:String?
+    var title: String
+    var releaseDate: String?
 //    var moviesToSee : [Movie] = []
     
-    init(title:String, releaseDate:String? = nil) {
+    init(title:String, releaseDate: String? = nil) {
         self.title = title
+        print("Movie.releaseDate \(releaseDate)")
         self.releaseDate = releaseDate
         
     }

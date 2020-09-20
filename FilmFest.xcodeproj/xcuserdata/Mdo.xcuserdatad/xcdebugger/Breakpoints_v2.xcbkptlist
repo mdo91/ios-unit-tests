@@ -46,8 +46,8 @@
             filePath = "FilmFest/Test Data Service/MovieLibraryDataServiceTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "testTableViewSectionCounts_ReturnsTwo()"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "FilmFest/Test Data Service/MovieLibraryDataServiceTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "testTableViewSectionCounts_ReturnsTwo()"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "FilmFest/Test Data Service/MovieLibraryDataServiceTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "testCell_shouldDequeueCell()"
             landmarkType = "7">
          </BreakpointContent>
@@ -87,16 +87,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "24C4E352-6CA0-4A46-9F1A-6C8DCC9F6440"
-            shouldBeEnabled = "No"
+            uuid = "817F78CE-6297-4665-8693-514FEFC54F09"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FilmFest/Test Data Service/MovieLibraryDataServiceTests.swift"
+            filePath = "FilmFest/Test Data Service/MovieCellTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "dequeueReusableCell(withIdentifier:for:)"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "testCell_Config_ShouldSetLablesToMovieData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

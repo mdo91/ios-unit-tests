@@ -13,6 +13,7 @@ class LibraryViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet var dataService: MovieLibraryDataService!
+    var movieManager = MovieManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +21,16 @@ class LibraryViewController: UIViewController {
         
         tableView.dataSource = self.dataService
         tableView.delegate = self.dataService
-        
+        dataService.movieManager = movieManager
         tableView.register(MovieCell.self, forCellReuseIdentifier: "movieCellId")
+        
+        movieManager.addMovie(movie: Movie(title: "Goal", releaseDate: "2009"))
+        movieManager.addMovie(movie: Movie(title: "Avangers", releaseDate: "2019"))
+        movieManager.addMovie(movie: Movie(title: "The Lock Down", releaseDate: "2020"))
+            movieManager.addMovie(movie: Movie(title: "Action", releaseDate: "2005"))
+        tableView.reloadData()
+        
+        
     }
     
     
