@@ -13,4 +13,4 @@ test suites covers the following:
 7. viewController
 8. Struct
 
-<img src="./img/img-filmfest" width="200" alt="App Screenshot 1">
+<img src="./img/img-filmfest.png" width="200" alt="App Screenshot 1">
