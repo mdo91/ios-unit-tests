@@ -109,6 +109,8 @@ class MovieLibraryDataServiceTests: XCTestCase {
         
         let cellQueried = librayTableView.cellForRow(at: IndexPath(row: 0, section: 0))
         
+        
+        
         XCTAssertTrue(cellQueried is MovieCell)
           
           

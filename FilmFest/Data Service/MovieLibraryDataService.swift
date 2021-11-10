@@ -56,7 +56,7 @@ class MovieLibraryDataService: NSObject, UITableViewDataSource, UITableViewDeleg
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         guard let movieManager = movieManager else{ fatalError()}
-        guard let librarySection = LibrarySection(rawValue: indexPath.row) else{ fatalError()}
+        guard let librarySection = LibrarySection(rawValue: indexPath.row) else{return}
         if librarySection == .MoviesToSee {
             
             movieManager.checkOffMovieAtIndex(index: indexPath.row)
