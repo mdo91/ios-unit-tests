@@ -12,3 +12,5 @@ test suites covers the following:
 6. library data service
 7. viewController
 8. Struct
+
+<img src="./img/img-filmfest" width="200" alt="App Screenshot 1">
